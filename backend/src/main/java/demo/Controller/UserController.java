@@ -1,17 +1,18 @@
 
-package demo.user;
+package demo.Controller;
 
+import demo.Domain.User;
+import demo.APIs.UserCheeckerToPatch;
+import demo.APIs.UserFinder;
+import demo.Repositories.UserRepository;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-
-@Service
 @RestController
-public class UserService {
+public class UserController {
     @Autowired
     UserRepository userRepository;
     @Autowired

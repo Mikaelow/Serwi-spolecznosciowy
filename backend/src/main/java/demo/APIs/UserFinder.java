@@ -1,5 +1,7 @@
-package demo.user;
+package demo.APIs;
 
+import demo.Domain.User;
+import demo.Repositories.UserRepository;
 import org.springframework.stereotype.Component;
 
 import java.util.Objects;

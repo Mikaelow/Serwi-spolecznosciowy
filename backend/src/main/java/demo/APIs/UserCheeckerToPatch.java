@@ -1,5 +1,8 @@
-package demo.user;
+package demo.APIs;
 
+
+import demo.Domain.User;
+import demo.Repositories.UserRepository;
 
 public class UserCheeckerToPatch {
 

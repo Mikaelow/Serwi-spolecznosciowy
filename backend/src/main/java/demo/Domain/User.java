@@ -1,4 +1,4 @@
-package demo.user;
+package demo.Domain;
 
 import lombok.*;
 import org.springframework.lang.NonNull;
